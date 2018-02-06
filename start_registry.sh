@@ -1,5 +1,6 @@
 docker run \
   --rm \
+  -d \
   -p 5000:5000 \
   --name registry \
   -v /Users/nergal/Dropbox/Work/tech_days_docker/code/registry:/var/lib/registry \
