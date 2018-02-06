@@ -1,0 +1,1 @@
+docker run -d --restart=always -v /var/run/docker.sock:/var/run/docker.sock --mount type=bind,source=/Users/nergal/Dropbox/Work/tech_days_docker/code/jenkins,target=/var/jenkins_home --name Jenkins -p 8080:8080 --rm -it jenkins:ver1
