@@ -3,7 +3,7 @@ docker run \
   -d \
   -p 5000:5000 \
   --name registry \
-  -v /Users/nergal/Dropbox/Work/tech_days_docker/code/registry:/var/lib/registry \
+  -v /Users/nergal/Work/registry:/var/lib/registry \
   registry:2
   #-e REGISTRY_HTTP_ADDR=0.0.0.0:443 \
 #  -v `pwd`/certs:/certs \
